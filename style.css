@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+}
+table{
+    margin: auto;
+}
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+fieldset{
+    border: 3px solid #008b8b;
+    padding: 2px;
+    margin: 2px;
+    height: 200px;
+    width: 400px;
+}
+legend{
+    font-size: 60px;
+}
+h1{
+    color: darkred;
+    font-size: 30px;
+    margin-top: 20px;
+}
